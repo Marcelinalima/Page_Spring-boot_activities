@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Iniciar a Extensão",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ProjetofinalspringbootApplication<projetofinalspringboot>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.com.ml.projetofinalspringboot.ProjetofinalspringbootApplication",
+            "projectName": "projetofinalspringboot",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PesquisaspringbootApplication<projetofinalspringboot>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.com.ml.pesquisaspringboot.PesquisaspringbootApplication",
+            "projectName": "projetofinalspringboot",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
